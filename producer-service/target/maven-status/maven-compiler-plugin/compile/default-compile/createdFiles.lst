@@ -1,0 +1,6 @@
+com/demo/producer/ProducerServiceApplication.class
+com/demo/producer/api/ProducerApi.class
+com/demo/producer/service/TaskProducerService.class
+com/demo/producer/config/KafkaConfig.class
+com/demo/producer/api/ProducerApiImpl.class
+com/demo/producer/config/TaskSerializer.class

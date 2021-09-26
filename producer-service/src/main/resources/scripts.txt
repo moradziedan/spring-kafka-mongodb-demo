@@ -1,0 +1,18 @@
+#start zookeeper
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+#start kafka
+bin/kafka-server-start.sh config/server.properties
+
+#list topics
+bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
+
+#create a new topic, task for example
+bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic task
+
+#start a consumer
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic task
+
+#produce a task via rest call
+curl -v -XPOST "http://localhost:8080/task/submit" -H"Content-Type:application/json" --data '{"command":"do something 7"}'
+

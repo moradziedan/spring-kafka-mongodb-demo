@@ -1,0 +1,6 @@
+/home/cbnd/morad/demo/producer-service/src/main/java/com/demo/producer/api/ProducerApi.java
+/home/cbnd/morad/demo/producer-service/src/main/java/com/demo/producer/config/KafkaConfig.java
+/home/cbnd/morad/demo/producer-service/src/main/java/com/demo/producer/service/TaskProducerService.java
+/home/cbnd/morad/demo/producer-service/src/main/java/com/demo/producer/ProducerServiceApplication.java
+/home/cbnd/morad/demo/producer-service/src/main/java/com/demo/producer/api/ProducerApiImpl.java
+/home/cbnd/morad/demo/producer-service/src/main/java/com/demo/producer/config/TaskSerializer.java
